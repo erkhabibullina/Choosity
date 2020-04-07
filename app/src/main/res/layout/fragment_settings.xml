@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/devStuff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:text="@string/hello_settings_fragment"
+        android:textAllCaps="true"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/mygit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/dev_github"
+            android:focusable="true"
+            android:src="@drawable/ic_github_black_24dp"
+            android:tint="?colorAccent" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
