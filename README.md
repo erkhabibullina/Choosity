@@ -23,5 +23,5 @@ vector drawables and different customizable themes.
 - Sounds and vibrations and a lot more!
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md(https://github.com/erkhabibullina/Choosity/blob/master/LICENSE.md)
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/erkhabibullina/Choosity/blob/master/LICENSE.md)
 file for details
